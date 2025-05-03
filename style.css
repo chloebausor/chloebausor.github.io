@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+
+
+	p { font-size: 32px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 400;
+    font-style: normal}
+
+    pit { font-size: 32px;
+        font-family: "Be Vietnam Pro", sans-serif;
+        font-weight: 400;
+        font-style: italic}
+
+	h1{font-size: 100px;
+    font-family: "Slackey", sans-serif;
+    font-weight: 400;
+    font-style: normal;}
+
+	h2{font-size: 75px;
+    font-family: "Slackey", sans-serif;}
+  
+	h3{font-size: 60px;
+    font-family: "Slackey", sans-serif;}
+
+	h4{font-size: 40px;
+    font-family: "Slackey", sans-serif;}
+
+	h5{font-size: 25px;
+    font-family: "Slackey", sans-serif;}
+
+	
+
+#a{
+	color: #0000ee;
+	text-decoration: none
+}
+
+#a:hover{
+	color: deeppink;
+	text-decoration: underline
+}
+
+
+
