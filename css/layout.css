@@ -1,0 +1,82 @@
+@charset "UTF8";
+
+
+#page_wrapper_home {
+    background-color: antiquewhite;
+    margin: auto;
+    height: 2000px;
+    width: 1368px;
+    position: relative ;
+} 
+
+#top_banner {
+    background-color: white;
+    position: absolute;
+    height: 132px;
+    width: 1368px;
+    left: 0px;
+    top: 0px;
+}
+
+#etg_logo {
+    background-color: transparent;
+    position: absolute;
+    height: 74px;
+    width: 181px;
+    left: 11px;
+    top: 9px;
+}
+
+#guitars_tab {
+    background-color: transparent;
+    position: absolute;
+    height: 74px;
+    width: 229px;
+    left: 229px;
+    top: -13px;
+}
+
+#amps_tab {
+    background-color: transparent;
+    position: absolute;
+    height: 74px;
+    width: 229px;
+    left: 470px;
+    top: -13px;
+}
+
+#pedals_tab {
+    background-color: transparent;
+    position: absolute;
+    height: 74px;
+    width: 229px;
+    left: 649px;
+    top: -13px;
+}
+
+#parts_tab {
+    background-color: transparent;
+    position: absolute;
+    height: 74px;
+    width: 229px;
+    left: 869px;
+    top: -13px;
+}
+
+#homepage_img {
+    background-color: transparent;
+    position: absolute;
+    height: 610px;
+    width: 786px;
+    left: 0px;
+    top: 133px;
+}
+
+#homepage_coverup {
+    background-color: white;
+    position: absolute;
+    height: 650px;
+    width: 1368px;
+    left: 0px;
+    top: 1077px;
+}
