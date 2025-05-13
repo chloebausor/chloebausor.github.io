@@ -2,7 +2,7 @@
 
 
 #page_wrapper_home {
-    background-color: antiquewhite;
+    background-color: white;
     margin: auto;
     height: 2000px;
     width: 1368px;
@@ -79,4 +79,49 @@
     width: 1368px;
     left: 0px;
     top: 1077px;
+}
+
+#hmpge_explore {
+    background-color: transparent;
+    position: absolute;
+    height: 74px;
+    width: 229px;
+    left: 105px;
+    top: 675px;
+}
+
+#prod_r1_c1 {
+    background-color: transparent;
+    position: absolute;
+    height: 74px;
+    width: 229px;
+    left: 470px;
+    top: -13px;
+}
+
+#prod_r1_c2 {
+    background-color: transparent;
+    position: absolute;
+    height: 74px;
+    width: 229px;
+    left: 470px;
+    top: -13px;
+}
+
+#prod_r1_c3 {
+    background-color: transparent;
+    position: absolute;
+    height: 74px;
+    width: 229px;
+    left: 470px;
+    top: -13px;
+}
+
+#prod_r1_c4 {
+    background-color: transparent;
+    position: absolute;
+    height: 74px;
+    width: 229px;
+    left: 470px;
+    top: -13px;
 }
