@@ -10,8 +10,8 @@ p {
   font-weight: 400;
 }
 
-button, .btn {
-  font-family: "Be Vietnam Pro", sans-serif;
+button, .button, .button_overlay {
+  font-family: "Slackey", cursive;
 }
 
 

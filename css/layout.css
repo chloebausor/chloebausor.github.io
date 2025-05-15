@@ -31,12 +31,12 @@ body {
 .main {
   position: relative;
   overflow: hidden;
-  height: 600px;
+  height: 711px;
 }
 
 .main img {
   width: 100%;
-  height: 120%;
+  height: 100%;
   object-fit: cover;
   object-position: top;
 }
@@ -171,6 +171,8 @@ body {
 .fender_banner {
   position: relative;
   margin-top: 50px;
+  height: 600px;
+  overflow: hidden;
 }
 
 .fender_banner img {
