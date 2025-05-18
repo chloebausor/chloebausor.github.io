@@ -108,11 +108,11 @@ body {
   margin-bottom: 30px;
 }
 
-.products {
-  display: flex;
+.homepage_products {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
-  flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .product_card {
@@ -206,4 +206,86 @@ body {
   color: white;
   border: none;
   cursor: pointer;
+}
+
+.banner {
+  background-image: url("../images/amps_banner.png");
+  padding: 30px 20px;
+  position: relative;
+}
+        
+.banner h1 {
+  font-size: 64px;
+  margin-bottom: 10px;
+  color: white;
+}
+        
+.banner p {
+  font-size: 14px;
+  max-width: 80%;
+  color: white;
+}
+
+.main-content {
+  display: flex;
+  padding: 20px;
+}
+        
+.sidebar {
+  width: 200px;
+  padding-right: 20px;
+}
+     
+.filter-section {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px;
+}
+        
+.filter-section h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+        
+.lots_o_products {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+        
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+        
+.product-image {
+  height: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+        
+.product-image img {
+  max-height: 100%;
+  max-width: 100%;
+}
+        
+.product-title {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5px;
+  height: 40px;
+}
+        
+.product-price {
+  font-weight: bold;
+  margin-bottom: 10px;
 }
