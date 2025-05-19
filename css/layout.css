@@ -3,7 +3,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Be Vietnam Pro", sans-serif;
+  font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
 }
 
 .top_banner {
@@ -288,4 +288,190 @@ body {
 .product-price {
   font-weight: bold;
   margin-bottom: 10px;
+}
+
+.back-button {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.product-info-box {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.product-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+    line-height: 1.2;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+.product-price {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  height: auto; 
+}
+
+.add-to-cart {
+  background-color: #b22222;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.features-box {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+.features-title {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.features-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.features-list li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+
+/*.features-list li::before {
+content: "•";
+color: #b22222;
+margin-right: 10px;
+} */
+
+.product-images {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 4px;
+}
+
+.main-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.main-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.thumbnail-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.thumbnail {
+  width: calc(25% - 8px);
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: auto;
+}
+
+.related-products {
+  margin-top: 40px;
+}
+
+.related-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 50px 40px;
+}
+
+.related-product {
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.related-image {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.related-image img {
+  max-width: 100%;
+  max-height: 170px;
+}
+
+.related-title {
+    font-size: 14px;
+    height: 60px;
+    overflow: hidden;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+.related-price {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.related-add {
+  background-color: #b22222;
+  color: white;
+  border: none;
+  padding: 8px;
+  width: 100%;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 4px;
+  cursor: pointer;
 }
