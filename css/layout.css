@@ -261,6 +261,8 @@ body {
   flex-direction: column;
   align-items: center;
   margin-bottom: 50px;
+  height: 450px;
+  justify-content: space-between;
 }
         
 .product-image {
@@ -292,15 +294,30 @@ body {
   font-weight: bold;
   text-align: center;
   margin-bottom: 5px;
-  height: 40px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-        
+
 .product-price {
-  font-weight: bold;
-  margin-top: 40px;
-  font-size: 20px;
-  margin-bottom: 20px;
-  height: auto; 
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    height: auto;
+}
+
+.product-price p {
+    font-size: 1.3vw;
+    margin: 0;
+}
+
+.product-title h3 {
+    font-size: 1.5vw;
+    margin: 0;
+    text-align: center;
+	
 }
 
 .back-button {
@@ -322,13 +339,6 @@ body {
   border: 1px solid #ddd;
   padding: 20px;
   border-radius: 4px;
-}
-
-.product-title {
-    font-size: 24px;
-    margin-bottom: 15px;
-    line-height: 1.2;
-    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 }
 
 .add-to-cart {
