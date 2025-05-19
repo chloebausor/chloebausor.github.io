@@ -297,8 +297,10 @@ body {
         
 .product-price {
   font-weight: bold;
-  margin-bottom: 10px;
-  margin-top: 20px
+  margin-top: 40px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  height: auto; 
 }
 
 .back-button {
@@ -327,13 +329,6 @@ body {
     margin-bottom: 15px;
     line-height: 1.2;
     font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-}
-
-.product-price {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 20px;
-  height: auto; 
 }
 
 .add-to-cart {
