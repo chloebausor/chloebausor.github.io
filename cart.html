@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Your Cart - Echo Tone Guitars</title>
+<link href="css/layout.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+	
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Slackey&display=swap" rel="stylesheet">
+
+<script src="js/cart.js">
+  document.addEventListener('DOMContentLoaded', function () {
+    updateCartDisplay();
+  });
+</script>
+
+<style>
+  }
+</style>
+
+</head>
+
+<body>
+	
+	<div class="top_banner"> 
+        <a href="index.html"><img src="images/ETG_logo.png" class="logo" alt="Echo Tone Guitars Logo"></a>
+    	<nav class="nav">
+   	    	<a href="#">GUITARS</a>
+        	<a href="amps_1.html">AMPS</a>
+    		<a href="#">PEDALS</a>
+    		<a href="#">PARTS</a>
+  		</nav>
+
+  		<div class="nav_stuff">
+    		<img src="images/search_bar.png" width="200" height="54" alt=""/>
+			<button class="cart_button"> 
+                <a href="cart.html"><img src="images/cart.png" alt="cart icon" width="53" height="42" class="cart_icon"></a>
+    		</button>
+  		</div>
+	</div>
+    
+    <div class="container">
+        <h1 class="cart-title">CART</h1>
+        
+        <div class="cart-layout">
+            <div class="cart-items-section">
+                <div id="cart-items">
+                </div>
+            </div>
+            
+            <div class="cart-summary">
+                <div class="summary-row">
+                    <span>Items</span>
+                    <span id="total-items">$0</span>
+                </div>
+                <div class="summary-row">
+                    <span>Shipping</span>
+                    <span id="total-shipping">$25</span>
+                </div>
+                <div class="total-row">
+                    <span>TOTAL</span>
+                    <span id="grand-total">$25</span>
+                </div>
+                <button class="checkout-btn">CHECKOUT</button>
+            </div>
+        </div>
+    </div>
+
+	<footer class="footer">
+	  <div class="footer-col">
+   		<h3>Shop</h3>
+   		<p>Guitars<br>
+   		  Amps<br>
+   		  Pedals<br>
+   		  Effects<br>
+   		  Parts</p>
+      </div>
+    	<div class="footer-col">
+      		<h3>About Us</h3>
+      		<p>Who We Are<br>Our Guitars<br>Sell With Us<br>Repairs</p>
+    	</div>
+   	  <div class="footer-col">
+      		<h3>Need Help?</h3>
+      		<p>Buyer's Guide<br>FAQ<br>Shipping and Returns<br>Contact us</p>
+    	</div>
+    	<div class="footer-col">
+      		<h3>Stay in touch!</h3>
+      		<input type="email" placeholder="Email">
+      		<a href="#" class="button">Sign Me Up!</a>
+		
+        </div>
+	</footer>
+	
+	<script>
+    document.addEventListener('DOMContentLoaded', updateCartDisplay);
+</script>
+	
+</body>
+</html>
