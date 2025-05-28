@@ -23,7 +23,7 @@ function addToCart(productName, productPrice) {
     }
 
     saveCart(cart);
-    alert("Added to cart!");
+    alert("Item added to cart!");
 }
 
 function updateCartDisplay() {
