@@ -47,8 +47,12 @@
 
   		<div class="nav_stuff">
     		<img src="images/search_bar.png" width="200" height="54" alt=""/>
-			<button class="cart_button"> <a href="cart.html"><img src="images/cart.png" alt="cart icon" width="53" height="42" class="cart_icon"></a>
-    		</button>
+			<a href="cart.html" class="cart_button">
+					<div class="cart_icon_container">
+						<img src="images/cart.png" alt="cart icon" width="53" height="42" class="cart_icon">
+						<span id="cart-count-badge" class="cart-badge">0</span>
+					</div>
+				</a>
   		</div>
 	</div>
     
@@ -153,6 +157,13 @@
 		
         </div>
 	</footer>
+	
+	<script>
+    	document.addEventListener('DOMContentLoaded', () => {
+  			updateCartDisplay();
+  			updateCartCountBadge();;
+		});
+	</script>
 	
 </body>
 </html>	

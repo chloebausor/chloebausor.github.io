@@ -125,7 +125,19 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+function updateCartCountBadge() {
+  const cart = getCart();
+  const badge = document.getElementById("cart-count-badge");
 
+  const itemCount = cart.reduce((sum, item) => sum + item.quantity, 0);
+
+  if (itemCount > 0) {
+    badge.textContent = itemCount;
+    badge.style.display = "inline-block";
+  } else {
+    badge.style.display = "none";
+  }
+}
 
 
 
