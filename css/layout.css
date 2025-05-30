@@ -1,26 +1,22 @@
 @charset "UTF8";
 
-/*REORGANIZING CSS TO MAKE THE BASE CASE SIZE MOBILE AND THEN CHANGES TO BE MADE WHEN SCREEN RESIZES TO DESKTOP OR LARGER*/
-
 body {
   margin: 0;
   padding: 0;
-  font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-  overflow-x: hidden;
+  font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
 }
 
 .top_banner {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 15px;
+  padding: 10px 40px;
   background: white;
   border-bottom: 1px solid #ddd;
-  position: relative;
 }
 
 .logo {
-  height: 60px;
+  height: 80px;
 }
 
 .nav a {
@@ -113,9 +109,10 @@ body {
 }
 
 .homepage_products {
-  grid-template-columns: 1fr 1fr;
-  gap: 15px;
-  padding: 0 10px;
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
 }
 
 .product_card {
@@ -663,52 +660,42 @@ body {
   justify-content: center;
 }
 
-  @media (max-width: 390px) {
-    .hamburger {
-      display: block;
-    }
-
-    .homepage_products {
-      grid-template-columns: 1fr;
-      gap: 15px;
-    }
-
-    .product {
-      max-width: 300px;
-      margin: 0 auto;
-    }
-
-    .top_banner {
-      padding: 10px 15px;
-    }
-
-    .main_text {
-      left: 5%;
-      right: 5%;
-	}}
-	
-  @media (min-width: 1200px){
-	
-    .homepage_products {
-      grid-template-columns: repeat(4, 1fr);
-    }
-
-    .top_banner {
-      padding: 10px 40px;
-    }
-
-    .logo {
-      height: 80px;
-    }
-
-    .nav a {
-      font-size: 24px;
-    }  
-	
+@media (max-width: 420px) {
+  .hamburger {
+    display: block;
   }
 
+  .nav-container {
+    display: none;
+    flex-direction: column;
+    background: white;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    padding: 10px 0;
+    z-index: 1000;
+  }
 
+  .nav-container.active {
+    display: flex;
+  }
 
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .nav a {
+    font-size: 24px;
+  }
+
+  .nav_stuff {
+    display: none;
+	}}
+	
   .cart_icon_container {
     position: relative;
     display: inline-block;
