@@ -46,10 +46,6 @@ button, .button, .button_overlay {
     font-size: 24px;
   }
 
-  .nav_stuff {
-    display: none;
-	}
-
   .main_text h1 {
     font-size: 40px;
     line-height: 1;
@@ -117,6 +113,22 @@ button, .button, .button_overlay {
   		font-size: 7px;
   		margin-bottom: 7px;
 	}
+	
+	.cart_icon {
+  		width: 25px;
+  		height: 25px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 }
