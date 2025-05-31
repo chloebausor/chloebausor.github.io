@@ -79,11 +79,29 @@ button, .button, .button_overlay {
     gap: 20px;
   }
 	
+	.product-price p {
+    	font-size: 10px;
+   		margin: 0;
+	}
+
+	.product-title h3 {
+    	font-size: 15px;
+	}
+
+	.add-to-cart {
+  		background-color: #b22222;
+  		color: white;
+  		border: none;
+  		padding: 10px 20px;
+  		width: 100%;
+  		font-size: 18px;
+  		font-weight: bold;
+  		border-radius: 7px;
+  		cursor: pointer;
+  		text-transform: uppercase;
+	}
 	
-	
-	
-	
-	
+		
 	
 	
 }
