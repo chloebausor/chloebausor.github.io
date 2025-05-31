@@ -231,11 +231,15 @@
 	</footer>
 	
 	<script>
-    	document.addEventListener('DOMContentLoaded', () => {
-  			updateCartDisplay();
-  			updateCartCountBadge();;
+      function toggleMenu() {
+      const navContainer = document.querySelector('.nav-container');
+      navContainer.classList.toggle('active');
+  	  }
+      document.addEventListener('DOMContentLoaded', () => {
+  	      updateCartDisplay();
+          updateCartCountBadge();;
 		});
-	</script>
+  </script>
 	
 </body>
 </html>
