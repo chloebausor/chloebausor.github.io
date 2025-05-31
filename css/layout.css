@@ -719,7 +719,7 @@ body {
   }
 
   .checkout-btn {
-    background-color: #a00;
+    background-color: #b22222;
     color: white;
     font-weight: bold;
     font-family: 'Slackey', sans-serif;
@@ -731,3 +731,114 @@ body {
     cursor: pointer;
     margin-top: 30px;
   }
+
+.checkout-title {
+            font-size: 48px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 30px;
+            letter-spacing: -1px;
+        }
+
+        .confirmation {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            margin-bottom: 40px;
+            margin-left: 0;
+            padding-left: 0;
+        }
+
+        .checkmark {
+            width: 60px;
+            height: 60px;
+            border: 3px solid black;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .checkmark::after {
+            content: '✓';
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .confirmation-text {
+            flex: 1;
+        }
+
+        .order-number {
+            color: #999;
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        .thank-you {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .confirmation-note {
+            color: #999;
+            font-size: 16px;
+            line-height: 1.4;
+        }
+
+        .details-container {
+            background-color: #E0E0E0;
+            border: 2px solid #d9d9d9;
+            border-radius: 15px;
+            margin: 0 30px 30px 30px;
+            overflow: hidden;
+        }
+
+        .detail-row {
+            display: flex;
+            padding: 20px 25px;
+            border-bottom: 1px solid #d9d9d9;
+        }
+
+        .detail-label {
+            width: 100px;
+            color: #999;
+            font-size: 16px;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+
+        .detail-value {
+            flex: 1;
+            font-size: 16px;
+            line-height: 1.4;
+        }
+
+        .continue-button {
+            background-color: #b22222;
+            color: white;
+            border: none;
+            padding: 20px 40px;
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            cursor: pointer;
+            width: auto;
+            border-radius: 8px;
+            margin: 30px;
+            display: block;
+        }
+
+		.continue-button a{
+            color: white;
+        }
+
+
+
+
+
+
+
