@@ -233,11 +233,13 @@
 	</footer>
 	
 	<script>
+      function toggleMenu() {
+      const navContainer = document.querySelector('.nav-container');
+      navContainer.classList.toggle('active');
+  	  }
       document.addEventListener('DOMContentLoaded', () => {
   	      updateCartDisplay();
           updateCartCountBadge();;
-		  toggleMenu();
-		});
   </script>
 	
 </body>
