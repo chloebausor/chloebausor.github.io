@@ -653,6 +653,7 @@ body {
   background: none;
   border: none;
   cursor: pointer;
+  color: black
 }
 
 .nav-container {
@@ -660,7 +661,7 @@ body {
   justify-content: center;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 400px) {
   .hamburger {
     display: block;
   }
