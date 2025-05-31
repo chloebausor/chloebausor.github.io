@@ -119,6 +119,12 @@ button, .button, .button_overlay {
   		height: 25px;
 	}
 	
+	.search_icon {
+  		width: 100px;
+  		height: 27px;
+  		padding: 3px 5px;
+	}
+	
 	
 	
 	

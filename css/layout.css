@@ -84,10 +84,6 @@ body {
   gap: 15px;
 }
 
-.search_bar {
-  padding: 6px 10px;
-}
-
 .cart_button {
   background: none;
   border: none;
@@ -97,6 +93,12 @@ body {
 .cart_icon {
   width: 45px;
   height: 45px;
+}
+
+.search_icon {
+  width: 200px;
+  height: 55px;
+  padding: 6px 10px;
 }
 
 .new_in {
