@@ -154,34 +154,28 @@ button, .button, .button_overlay {
   		object-fit: fill; 
 	}
 	
-	 .product-grid {
+	.product-grid {
     	display: flex;
     	flex-direction: column;
+    	align-items: center;
     	gap: 20px;
     	padding: 10px;
-  }
-
-	.left-column {
-    	padding: 15px;
-    	width: 100%;
-  	}
-	
-  	.product-images {
-    	padding: 15px;
-    	width: 100%;
-  	}
-	
-  	.features-box {
-    	padding: 15px;
-    	width: 100%;
   	}
 
-  	.thumbnail-container {
+  	.main-image {
+    	order: 1;
+    	width: 100%;
+    	max-width: 360px;
+    	text-align: center;
+  	}
+
+	.thumbnail-container {
+		order: 2;
     	display: flex;
-    	flex-direction: row;
     	flex-wrap: wrap;
     	justify-content: center;
-    	gap: 10px;
+    	gap: 8px;
+    	margin-top: 10px;
   	}
 
   	.thumbnail img {
@@ -189,20 +183,48 @@ button, .button, .button_overlay {
     	height: auto;
   	}
 
-  	.main-image img {
+  	.left-column {
+    	order: 3;
     	width: 100%;
-    	height: auto;
+    	max-width: 360px;
+    	text-align: center;
+  	}
+
+  	.features-box {
+    	order: 4;
+    	width: 100%;
+    	max-width: 360px;
+    	padding: 15px;
+    	box-sizing: border-box;
+    	margin: 0 auto;
+  	}
+
+  	.main-image {
+    	float: none;
+    	margin: 0 auto;
+  	}
+	
+	.left-column{
+    	float: none;
+    	margin: 0 auto;
+  	}
+	
+  	.features-box {
+    	float: none;
+    	margin: 0 auto;
   	}
 
   	.related-grid {
     	display: flex;
     	flex-direction: column;
+    	align-items: center;
     	gap: 20px;
+    	margin-top: 30px;
   	}
 
   	.related-product {
     	width: 100%;
-    	text-align: center;
+    	max-width: 360px;
   	}
 	
 	
