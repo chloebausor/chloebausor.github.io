@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 h1, h2, h3, h4, h5 {
-  font-family: "Slackey", cursive;
+  	font-family: "Slackey", cursive;
 }
 
 p {
@@ -11,40 +11,40 @@ p {
 }
 
 button, .button, .button_overlay {
-  font-family: "Slackey", cursive;
+  	font-family: "Slackey", cursive;
 }
 
 @media (max-width: 400px) {
-  .hamburger {
-    display: block;
-  }
+	.hamburger {
+    	display: block;
+  	}
 
-  .nav-container {
-    display: none;
-    flex-direction: column;
-    background: white;
-    position: absolute;
-    top: 100px;
-    left: 0;
-    width: 100%;
-    border-top: 1px solid #ccc;
-    padding: 10px 0;
-    z-index: 1000;
-  }
+  	.nav-container {
+    	display: none;
+    	flex-direction: column;
+    	background: white;
+    	position: absolute;
+    	top: 100px;
+    	left: 0;
+    	width: 100%;
+    	border-top: 1px solid #ccc;
+    	padding: 10px 0;
+    	z-index: 1000;
+  	}
 
-  .nav-container.active {
-    display: flex;
-  }
+  	.nav-container.active {
+    	display: flex;
+  	}
 
-  .nav {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
+  	.nav {
+    	flex-direction: column;
+    	align-items: center;
+    	gap: 10px;
+  	}
 
-  .nav a {
-    font-size: 24px;
-  }
+  	.nav a {
+    	font-size: 24px;
+  	}
 	
 	.fender_banner {
   		position: relative;
@@ -53,34 +53,34 @@ button, .button, .button_overlay {
   		overflow: hidden;
 	}
 
-  .main_text h1 {
-    font-size: 40px;
-    line-height: 1;
-    margin: 0;
-  }
+  	.main_text h1 {
+    	font-size: 40px;
+    	line-height: 1;
+    	margin: 0;
+  	}
 
-  .main_text h3 {
-    font-size: 20px;
-    margin-bottom: 5px;
-  }
+  	.main_text h3 {
+    	font-size: 20px;
+    	margin-bottom: 5px;
+  	}
 	
-  .homepage_products {
-    flex: 1;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  }
+  	.homepage_products {
+    	flex: 1;
+    	display: grid;
+    	grid-template-columns: repeat(2, 1fr);
+    	gap: 20px;
+  	}
 	
-  .sidebar {
-    display: none;
-  }
+  	.sidebar {
+    	display: none;
+  	}
 	
-  .lots_o_products {
-    flex: 1;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  }
+  	.lots_o_products {
+    	flex: 1;
+    	display: grid;
+    	grid-template-columns: repeat(2, 1fr);
+    	gap: 20px;
+ 	}
 	
 	.product-price p {
     	font-size: 12px;
@@ -117,7 +117,7 @@ button, .button, .button_overlay {
 	}
 	
 	.footer_col p {
-  		font-size: 7px;
+  		font-size: 4px;
   		margin-bottom: 7px;
 		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
 	}
@@ -136,11 +136,74 @@ button, .button, .button_overlay {
   		font-weight: bold;
 	}
 	
+	.split_banner {
+ 		display: flex;
+  		margin-top: 50px;
+	}
+
+	.split_banner .half {
+  		width: 50%;
+  		position: relative;
+  		height: 400px;
+  		overflow: hidden;
+	}
+
+	.split-banner img {
+ 		 width: 100%;
+  		height: 100%;
+  		object-fit: fill; 
+	}
 	
+	 .product-grid {
+    	display: flex;
+    	flex-direction: column;
+    	gap: 20px;
+    	padding: 10px;
+  }
+
+	.left-column {
+    	padding: 15px;
+    	width: 100%;
+  	}
 	
+  	.product-images {
+    	padding: 15px;
+    	width: 100%;
+  	}
 	
-	
-	
+  	.features-box {
+    	padding: 15px;
+    	width: 100%;
+  	}
+
+  	.thumbnail-container {
+    	display: flex;
+    	flex-direction: row;
+    	flex-wrap: wrap;
+    	justify-content: center;
+    	gap: 10px;
+  	}
+
+  	.thumbnail img {
+    	width: 80px;
+    	height: auto;
+  	}
+
+  	.main-image img {
+    	width: 100%;
+    	height: auto;
+  	}
+
+  	.related-grid {
+    	display: flex;
+    	flex-direction: column;
+    	gap: 20px;
+  	}
+
+  	.related-product {
+    	width: 100%;
+    	text-align: center;
+  	}
 	
 	
 	
@@ -149,3 +212,10 @@ button, .button, .button_overlay {
 	
 	
 }
+	
+	
+	
+	
+	
+	
+	
