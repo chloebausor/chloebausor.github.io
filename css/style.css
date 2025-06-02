@@ -201,17 +201,17 @@ button, .button, .button_overlay {
   	}
 
   	.main-image {
-    	float: none;
+    	width: 100%;
     	margin: 0 auto;
   	}
 	
 	.left-column{
-    	float: none;
+    	width: 100%;
     	margin: 0 auto;
   	}
 	
   	.features-box {
-    	float: none;
+    	width: 100%;
     	margin: 0 auto;
   	}
 
@@ -233,7 +233,7 @@ button, .button, .button_overlay {
 	}
 	
 	.thumbnail img {
-  		object-fit: contain
+  		object-fit: contain;
 	}
 	
 	
