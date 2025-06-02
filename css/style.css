@@ -149,7 +149,7 @@ button, .button, .button_overlay {
 	}
 
 	.split-banner img {
- 		 width: 100%;
+ 		width: 100%;
   		height: 100%;
   		object-fit: fill; 
 	}
@@ -228,8 +228,13 @@ button, .button, .button_overlay {
     	max-width: 420px;
   	}
 	
+	.container {
+  		padding: 5px;
+	}
 	
-	
+	.thumbnail img {
+  		object-fit: contain
+	}
 	
 	
 	
