@@ -263,6 +263,12 @@ button, .button, .button_overlay {
     .cart-item img {
         margin-bottom: 10px;
     }
+	
+	.checkout-btn {
+        width: 100%;
+        padding: 15px;
+        font-size: 18px;
+    }
 
   	.form-group {
     	margin-bottom: 25px;
