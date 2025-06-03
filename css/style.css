@@ -236,24 +236,33 @@ button, .button, .button_overlay {
   		object-fit: contain;
 	}
 	
-	.cart-items-section {
-		order: 1;
-  		flex: 2;
-	}
-	
-	.cart-summary {
-		order: 2;
-  		flex: 1;
-  		background: white;
-  		border: 2px solid #ddd;
-  		border-radius: 8px;
-  		padding: 30px;
-  		height: auto;
-	}
-	
-	.form-section {
-    	margin-bottom: 40px;
-  	}
+	.cart-layout {
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px;
+    }
+    
+    .cart-items-section {
+        flex: none;
+        width: 100%;
+    }
+    
+    .cart-summary {
+        flex: none;
+        width: 100%;
+        position: static;
+        margin-top: 15px;
+        padding: 15px;
+    }
+    
+    .cart-item {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .cart-item img {
+        margin-bottom: 10px;
+    }
 
   	.form-group {
     	margin-bottom: 25px;
