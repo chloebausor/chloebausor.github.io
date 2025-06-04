@@ -24,9 +24,12 @@
 	
 <body>
 	
-	<div class="top_banner"> <a href="index.html"><img src="images/ETG_logo.png" class="logo" alt="Echo Tone Guitars Logo"></a>
+<!-- divider containing all info needed for the menu banner -->
+<div class="top_banner"> <a href="index.html"><img src="images/ETG_logo.png" class="logo" alt="Echo Tone Guitars Logo"></a>
+		<!-- functionality added for hamburger menu on mobile display -->
     	<button class="hamburger" onclick="toggleMenu()">☰</button>
     	<div class="nav-container">
+			<!-- navigation links -->
 	    	<nav class="nav">
     			<a href="#">GUITARS</a>
     			<a href="amps_1.html">AMPS</a>
@@ -35,8 +38,8 @@
         	</nav>
 		</div>
 
-
-  		<div class="nav_stuff">
+	<!-- class contains cart button and search icon -->
+  	<div class="nav_stuff">
     		<img src="images/search_bar.png" alt="" width="200" height="54" class="search_icon"/>
 			<a href="cart.html" class="cart_button">
 					<div class="cart_icon_container">
@@ -44,63 +47,69 @@
 						<span id="cart-count-badge" class="cart-badge">0</span>
 					</div>
 		  </a>
-	  </div>
 	</div>
+</div>
 	
+	<!-- main homepage banner section -->
 	<div class="main">
-    	<img src="images/sam_greenberg.png" alt="">
+    	<img src="images/sam_greenberg.png" alt="Image of a man sitting on a couch playing guitar">
    	 <div class="main_text">
-     	 <h3>SIGNATURE SERIES</h3>
+   	   <h3>SIGNATURE SERIES</h3>
      	 <h1>SAM GREENBERG ACOUSTIC SERIES</h1>
     	  <a href="#" class="button">EXPLORE NOW</a>
    	 </div>
   	</div>
 	
-<section class="new_in">
-	<h2>NEW IN</h2>
-    <div class="homepage_products">
+	<!-- new in item section -->
+	<section class="new_in">
+		<h2>NEW IN</h2>
+    	<div class="homepage_products">
 		
-    	<div class="product">
-    		<div class="product-image">
-            	<img src="images/florist.png" alt="Benson Amps x Non-human Audio Florist">
-            </div>
-			
-            <div class="product-title">Benson Amps x Non-human Audio Florist</div>
-            <div class="product-price">$469.00</div>
-            <button class="add-to-cart">ADD TO CART</button>
-		</div>
+			<!-- product 1 -->
+    		<div class="product">
+    			<div class="product-image">
+            		<img src="images/florist.png" alt="Benson Amps x Non-human Audio Florist">
+           	 	</div>
+            	<div class="product-title">Benson Amps x Non-human Audio Florist</div>
+            	<div class="product-price">$469.00</div>
+           		<button class="add-to-cart">ADD TO CART</button>
+			</div>
 		
-	    <div class="product">
-        	<div class="product-image">
-            	<img src="images/lightspeed.png" alt="Greer Lightspeed Guitar Pedal">
-            </div>
-            <div class="product-title">Greer Lightspeed Guitar Pedal</div>
-            <div class="product-price">$409.00</div>
-            <button class="add-to-cart">ADD TO CART</button>
-		</div>
+			<!-- product 2 -->
+	    	<div class="product">
+        		<div class="product-image">
+            		<img src="images/lightspeed.png" alt="Greer Lightspeed Guitar Pedal">
+            	</div>
+            	<div class="product-title">Greer Lightspeed Guitar Pedal</div>
+            	<div class="product-price">$409.00</div>
+            	<button class="add-to-cart">ADD TO CART</button>
+			</div>
 		
-		<div class="product">
-        	<div class="product-image">
-            	<img src="images/preamp.png" alt="Benson Germanium Preamp Pedal">
-            </div>
-            <div class="product-title">Benson Germanium Preamp Pedal</div>
-            <div class="product-price">$469.00</div>
-            <button class="add-to-cart">ADD TO CART</button>
-        </div>
+			<!-- product 3 -->
+			<div class="product">
+        		<div class="product-image">
+            		<img src="images/preamp.png" alt="Benson Germanium Preamp Pedal">
+            	</div>
+            	<div class="product-title">Benson Germanium Preamp Pedal</div>
+            	<div class="product-price">$469.00</div>
+            	<button class="add-to-cart">ADD TO CART</button>
+        	</div>
 		
-		<div class="product">
-        	<div class="product-image">
-            	<img src="images/fuzz.png" alt="Benson Germanium Fuzz Pedal">
-            </div>
-            <div class="product-title">Benson Germanium Fuzz Pedal</div>
-            <div class="product-price">$529.00</div>
-            <button class="add-to-cart">ADD TO CART</button>
-        </div>
+			<!-- product 4 -->
+			<div class="product">
+        		<div class="product-image">
+            		<img src="images/fuzz.png" alt="Benson Germanium Fuzz Pedal">
+            	</div>
+            	<div class="product-title">Benson Germanium Fuzz Pedal</div>
+            	<div class="product-price">$529.00</div>
+            	<button class="add-to-cart">ADD TO CART</button>
+        	</div>
 		
-	</div>   
-</section>
+		</div>   
+	</section>
 	
-<section class="split_banner">
+	<!-- split banner section -->
+	<section class="split_banner">
     	<div class="half">
       		<img src="images/pedals.png" alt="Shop Pedals">
       		<a href="#" class="button_overlay">SHOP PEDALS</a>
@@ -109,7 +118,7 @@
       		<img src="images/theory.png" alt="Shop Theory">
       		<a href="#" class="button_overlay">SHOP THEORY</a>
     	</div>
-  </section>
+  	</section>
 	
 	<section class="fender_banner">
     	<img src="images/fender_banner.png" alt="Make Some Noise with Fender">
@@ -119,6 +128,7 @@
     	</div>
     </section>
 	
+	<!-- footer section with links to other pages -->
 	<footer class="footer">
    		<div class="footer-col">
       		<h3>Shop</h3>
@@ -138,20 +148,20 @@
       		<a href="#" class="button">Sign Me Up!</a>
 		
         </div>
-  </footer>
+	</footer>
 	
-  <script>
-      function toggleMenu() {
-      const navContainer = document.querySelector('.nav-container');
-      navContainer.classList.toggle('active');
-  	  }
-      document.addEventListener('DOMContentLoaded', () => {
-  	      updateCartDisplay();
-          updateCartCountBadge();;
+	<!-- javascript used to allow mobile hamburger menu and update cart -->
+  	<script>
+		function toggleMenu() {
+      	const navContainer = document.querySelector('.nav-container');
+      	navContainer.classList.toggle('active');
+  	  	}	
+      	document.addEventListener('DOMContentLoaded', () => {
+  	      updateCartDisplay(); // updates cart badge
+          updateCartCountBadge();; // updates cart item total
 		});
-  </script>
+  	</script>
 	
+
 </body>
-	
-    
 </html>

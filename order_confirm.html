@@ -24,9 +24,12 @@
 	
 <body>
 	
+	<!-- divider containing all info needed for the menu banner -->
 	<div class="top_banner"> <a href="index.html"><img src="images/ETG_logo.png" class="logo" alt="Echo Tone Guitars Logo"></a>
+		<!-- functionality added for hamburger menu on mobile display -->
     	<button class="hamburger" onclick="toggleMenu()">☰</button>
     	<div class="nav-container">
+			<!-- navigation links -->
 	    	<nav class="nav">
     			<a href="#">GUITARS</a>
     			<a href="amps_1.html">AMPS</a>
@@ -35,7 +38,7 @@
         	</nav>
 		</div>
 
-
+	<!-- class contains cart button and search icon -->
   		<div class="nav_stuff">
     		<img src="images/search_bar.png" alt="" width="200" height="54" class="search_icon"/>
 			<a href="cart.html" class="cart_button">
@@ -43,8 +46,8 @@
 						<img src="images/cart.png" alt="cart icon" width="53" height="42" class="cart_icon">
 						<span id="cart-count-badge" class="cart-badge">0</span>
 					</div>
-		  </a>
-	  </div>
+		  	</a>
+		</div>
 	</div>
 	
 	<div class="container">
@@ -54,6 +57,7 @@
             
             <div class="confirmation">
                 <div class="checkmark"></div>
+				<!-- confirmation text with order number -->
                 <div class="confirmation-text">
                     <div class="order-number">Order #20501</div>
                     <div class="thank-you">Thank You For Your Order!</div>
@@ -63,6 +67,7 @@
         </div>
 
         <div class="details-container">
+			<!-- section with user contact info -->
             <div class="detail-row">
                 <div class="detail-label">Contact</div>
                 <div class="detail-value">
@@ -71,6 +76,7 @@
                 </div>
             </div>
             
+			<!-- section with user address info -->
             <div class="detail-row">
                 <div class="detail-label">Address</div>
                 <div class="detail-value">
@@ -82,6 +88,7 @@
                 </div>
             </div>
             
+			<!-- section with user payment info -->
             <div class="detail-row">
                 <div class="detail-label">Payment</div>
                 <div class="detail-value">
@@ -94,6 +101,7 @@
 	<a href="index.html"><button class="continue-button">CONTINUE SHOPPING</button></a>
 	
 	
+	<!-- footer section with links to other pages -->
 	<footer class="footer">
    		<div class="footer-col">
       		<h3>Shop</h3>
@@ -106,27 +114,27 @@
    	  <div class="footer-col">
       		<h3>Need Help?</h3>
       		<p>Buyer's Guide<br>FAQ<br>Shipping and Returns<br>Contact us</p>
-    	</div>
+   	  </div>
     	<div class="footer-col">
       		<h3>Stay in touch!</h3>
       		<input type="email" placeholder="Email">
       		<a href="#" class="button">Sign Me Up!</a>
 		
         </div>
-  </footer>
+	</footer>
 	
-  <script>
-      function toggleMenu() {
-      const navContainer = document.querySelector('.nav-container');
-      navContainer.classList.toggle('active');
-  	  }
-      document.addEventListener('DOMContentLoaded', () => {
-  	      updateCartDisplay();
-          updateCartCountBadge();;
+	<!-- javascript used to allow mobile hamburger menu and update cart -->
+	<script>
+		function toggleMenu() {
+      	const navContainer = document.querySelector('.nav-container');
+      	navContainer.classList.toggle('active');
+  	  	}	
+      	document.addEventListener('DOMContentLoaded', () => {
+  	      updateCartDisplay(); // updates cart badge
+          updateCartCountBadge();; // updates cart item total
 		});
-  </script>
+  	</script>
+	
 	
 </body>
-	
-    
 </html>

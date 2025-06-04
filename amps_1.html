@@ -3,6 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <title>Amps</title>
+	
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+	
   <link href="css/layout.css" rel="stylesheet" type="text/css">
   <link href="css/style.css" rel="stylesheet" type="text/css">
 
@@ -20,9 +23,12 @@
 
 <body>
 	
+	<!-- divider containing all info needed for the menu banner -->
 	<div class="top_banner"> <a href="index.html"><img src="images/ETG_logo.png" class="logo" alt="Echo Tone Guitars Logo"></a>
+		<!-- functionality added for hamburger menu on mobile display -->
     	<button class="hamburger" onclick="toggleMenu()">☰</button>
     	<div class="nav-container">
+			<!-- navigation links -->
 	    	<nav class="nav">
     			<a href="#">GUITARS</a>
     			<a href="amps_1.html">AMPS</a>
@@ -31,7 +37,7 @@
         	</nav>
 		</div>
 
-
+		<!-- class contains cart button and search icon -->
   		<div class="nav_stuff">
     		<img src="images/search_bar.png" alt="" width="200" height="54" class="search_icon"/>
 			<a href="cart.html" class="cart_button">
@@ -52,6 +58,7 @@
 	
     <div class="main-content">
         
+		<!-- contains outline for search filters -->
         <div class="sidebar">
             <div class="filter-section">
                 <h3>Brand</h3>
@@ -74,7 +81,7 @@
             <div class="product">
                 <div class="product-image"> 
 					<a href="product_1.html">
-						<img src="images/fender_tone_master_blonde.png" alt="Fender Tone Master Deluxe Reverb Blonde Amplifier">
+						<img src="images/fender_tone_master_blonde.png" alt="Fender Tone Master Deluxe Reverb Blonde Amplifier"> <!-- link to product page -->
 					</a>
                 </div>
 				
@@ -84,7 +91,7 @@
 				</div>
 				
 				<div class="product-price"><p>$1,569.00</p></div>
-                <button class="add-to-cart" onclick="addToCart('Fender Tone Master Deluxe Reverb Blonde Amplifier', 1569)">ADD TO CART</button>
+                <button class="add-to-cart" onclick="addToCart('Fender Tone Master Deluxe Reverb Blonde Amplifier', 1569)">ADD TO CART</button> <!-- popup appears when item is added to cart -->
             </div>
 
             
@@ -111,10 +118,12 @@
 						<img src="images/fender_mustang_LT25.png" alt="Fender Mustang LT25 Amplifier">
 					</a>
                 </div>
-                <div class="product-title"><a href="product_2.html" style="font-weight: bold; color: #000000; text-decoration: none"><h3>Fender Mustang LT25 Amplifier</h3></a>
+                <div class="product-title">
+					<a href="product_2.html" style="font-weight: bold; color: #000000; text-decoration: none"><h3>Fender Mustang LT25 Amplifier</h3>
+					</a> <!-- link to product page -->
 				</div>
 				<div class="product-price"><p>$329.00</p></div>
-                <button class="add-to-cart" onclick="addToCart('Fender Mustang LT25 Amplifier', 359.00)">Add to Cart</button>
+                <button class="add-to-cart" onclick="addToCart('Fender Mustang LT25 Amplifier', 359.00)">Add to Cart</button> <!-- popup appears when item is added to cart -->
             </div>
 
             
@@ -123,7 +132,7 @@
                     <img src="images/fender_acoustic_100.png" alt="Fender Acoustic 100 Amplifier">
                 </div>
                 <div class="product-title"><h3>Fender Acoustic 100 Amplifier</h3></div>
-              <div class="product-price"><p>$939.00</p></div>
+              	<div class="product-price"><p>$939.00</p></div>
                 <button class="add-to-cart">ADD TO CART</button>
             </div>
 
@@ -133,7 +142,7 @@
                     <img src="images/marshall_ST212.png" alt="Marshall ST212 Studio JTM 2 x 12 Cab">
                 </div>
                 <div class="product-title"><h3>Marshall ST212 Studio JTM 2 x 12 Cab</h3></div>
-              <div class="product-price"><p>$1,299.00</p></div>
+              	<div class="product-price"><p>$1,299.00</p></div>
                 <button class="add-to-cart">ADD TO CART</button>
             </div>
 
@@ -143,7 +152,7 @@
                     <img src="images/fender_68.png" alt="Fender '68 Custom Deluxe Reverb Amplifier">
                 </div>
                 <div class="product-title"><h3>Fender '68 Custom Deluxe Reverb Amplifier</h3></div>
-              <div class="product-price"><p>$2,399.00</p></div>
+              	<div class="product-price"><p>$2,399.00</p></div>
                 <button class="add-to-cart">ADD TO CART</button>
             </div>
 
@@ -153,7 +162,7 @@
                     <img src="images/marshall_SV20C.png" alt="Marshall SV20C Studio Vintage 20w 1x10 Valve Combo">
                 </div>
                 <div class="product-title"><h3>Marshall SV20C Studio Vintage 20w 1x10 Valve Combo</h3></div>
-              <div class="product-price"><p>$1,459.00</p></div>
+             	<div class="product-price"><p>$1,459.00</p></div>
                 <button class="add-to-cart">ADD TO CART</button>
             </div>
 
@@ -163,7 +172,7 @@
                     <img src="images/fender_68_princeton.png" alt="Fender '68 Custom Princeton Reverb">
                 </div>
                 <div class="product-title"><h3>Fender '68 Custom Princeton Reverb</h3></div>
-              <div class="product-price"><p>$2,099.00</p></div>
+              	<div class="product-price"><p>$2,099.00</p></div>
                 <button class="add-to-cart">ADD TO CART</button>
             </div>
 
@@ -173,7 +182,7 @@
                     <img src="images/fender_pro_jr.png" alt="Fender Pro Junior IV Amplifier (Lacquered Tweed)">
                 </div>
                 <div class="product-title"><h3>Fender Pro Junior IV Amplifier (Lacquered Tweed)</h3></div>
-              <div class="product-price"><p>$989.00</p></div>
+              	<div class="product-price"><p>$989.00</p></div>
                 <button class="add-to-cart">ADD TO CART</button>
             </div>
 
@@ -183,7 +192,7 @@
                     <img src="images/laney_cub.png" alt="Laney Cub SUPER10 10w Valve Amplifier (CUB-SUPER10)">
                 </div>
                 <div class="product-title"><h3>Laney Cub SUPER10 10w Valve Amplifier (CUB-SUPER10)</h3></div>
-              <div class="product-price"><p>$579.00</p></div>
+              	<div class="product-price"><p>$579.00</p></div>
                 <button class="add-to-cart">ADD TO CART</button>
             </div>
 
@@ -193,7 +202,7 @@
                     <img src="images/danelectro.png" alt="Danelectro Honeytone Mini Amp">
                 </div>
                 <div class="product-title"><h3>Danelectro Honeytone Mini Amp</h3></div>
-              <div class="product-price"><p>$75.00</p></div>
+              	<div class="product-price"><p>$75.00</p></div>
                 <button class="add-to-cart">ADD TO CART</button>
             </div>
 
@@ -210,7 +219,7 @@
     </div>
 	
 	
-	
+	<!-- footer section with links to other pages -->
 	<footer class="footer">
    		<div class="footer-col">
       		<h3>Shop</h3>
@@ -232,15 +241,18 @@
         </div>
 	</footer>
 	
-	<script>
-      function toggleMenu() {
-      const navContainer = document.querySelector('.nav-container');
-      navContainer.classList.toggle('active');
-  	  }
-      document.addEventListener('DOMContentLoaded', () => {
-  	      updateCartDisplay();
-          updateCartCountBadge();;
-  </script>
+	<!-- javascript used to allow mobile hamburger menu and update cart -->
+  	<script>
+		function toggleMenu() {
+      	const navContainer = document.querySelector('.nav-container');
+      	navContainer.classList.toggle('active');
+  	  	}	
+      	document.addEventListener('DOMContentLoaded', () => {
+  	      updateCartDisplay(); // updates cart badge
+          updateCartCountBadge();; // updates cart item total
+		});
+  	</script>
+	
 	
 </body>
 </html>

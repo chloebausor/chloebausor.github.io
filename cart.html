@@ -3,6 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <title>Cart</title>
+	
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+	
 <link href="css/layout.css" rel="stylesheet" type="text/css">
 <link href="css/style.css" rel="stylesheet" type="text/css">
 	
@@ -19,9 +22,12 @@
 
 <body>
 	
+	<!-- divider containing all info needed for the menu banner -->
 	<div class="top_banner"> <a href="index.html"><img src="images/ETG_logo.png" class="logo" alt="Echo Tone Guitars Logo"></a>
+		<!-- functionality added for hamburger menu on mobile display -->
     	<button class="hamburger" onclick="toggleMenu()">☰</button>
     	<div class="nav-container">
+			<!-- navigation links -->
 	    	<nav class="nav">
     			<a href="#">GUITARS</a>
     			<a href="amps_1.html">AMPS</a>
@@ -30,7 +36,7 @@
         	</nav>
 		</div>
 
-
+	<!-- class contains cart button and search icon -->
   		<div class="nav_stuff">
     		<img src="images/search_bar.png" alt="" width="200" height="54" class="search_icon"/>
 			<a href="cart.html" class="cart_button">
@@ -38,14 +44,15 @@
 						<img src="images/cart.png" alt="cart icon" width="53" height="42" class="cart_icon">
 						<span id="cart-count-badge" class="cart-badge">0</span>
 					</div>
-		  </a>
-	  </div>
+		  	</a>
+		</div>
 	</div>
     
     <div class="container">
         <h1 class="cart-title">CART</h1>
         
         <div class="cart-layout">
+			<!-- section where cart items appear when added -->
             <div class="cart-items-section">
                 <div id="cart-items">
                 </div>
@@ -54,14 +61,17 @@
             <div class="cart-summary">
                 <div class="summary-row">
                     <span>Items</span>
+					<!-- total item cost -->
                     <span id="total-items">$0</span>
                 </div>
                 <div class="summary-row">
                     <span>Shipping</span>
+					<!-- total shipping cost -->
                     <span id="total-shipping">$25</span>
                 </div>
                 <div class="total-row">
                     <span>TOTAL</span>
+					<!-- grand total cost -->
                     <span id="grand-total">$25</span>
                 </div>
                 <a href="payment.html"><button class="checkout-btn">CHECKOUT</button></a>
@@ -69,15 +79,12 @@
         </div>
     </div>
 
+	<!-- footer section with links to other pages -->
 	<footer class="footer">
-	  <div class="footer-col">
-   		<h3>Shop</h3>
-   		<p>Guitars<br>
-   		  Amps<br>
-   		  Pedals<br>
-   		  Effects<br>
-   		  Parts</p>
-      </div>
+   		<div class="footer-col">
+      		<h3>Shop</h3>
+      		<p>Guitars<br>Amps<br>Pedals<br>Effects<br>Parts</p>
+    	</div>
     	<div class="footer-col">
       		<h3>About Us</h3>
       		<p>Who We Are<br>Our Guitars<br>Sell With Us<br>Repairs</p>
@@ -85,7 +92,7 @@
    	  <div class="footer-col">
       		<h3>Need Help?</h3>
       		<p>Buyer's Guide<br>FAQ<br>Shipping and Returns<br>Contact us</p>
-    	</div>
+   	  </div>
     	<div class="footer-col">
       		<h3>Stay in touch!</h3>
       		<input type="email" placeholder="Email">
@@ -94,15 +101,18 @@
         </div>
 	</footer>
 	
+	<!-- javascript used to allow mobile hamburger menu and update cart -->
 	<script>
-	  function toggleMenu() {
-      const navContainer = document.querySelector('.nav-container');
-      navContainer.classList.toggle('active');
-  	  }
-      document.addEventListener('DOMContentLoaded', () => {
-  	      updateCartDisplay();
-          updateCartCountBadge();;
-	</script>
+		function toggleMenu() {
+      	const navContainer = document.querySelector('.nav-container');
+      	navContainer.classList.toggle('active');
+  	  	}	
+      	document.addEventListener('DOMContentLoaded', () => {
+  	      updateCartDisplay(); // updates cart badge
+          updateCartCountBadge();; // updates cart item total
+		});
+  	</script>
+	
 	
 </body>
 </html>
